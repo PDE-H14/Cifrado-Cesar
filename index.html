@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Cesar</title>
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/logica.js" ></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <label>Mensaje</label>
+            </td>
+            <td>
+                <textarea id="mensaje"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Desplazamiento</label>
+            </td>
+            <td>
+                <input type="number" id="k">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button onclick="encripta()">Cifrar</button>
+                <button onclick="desencripta()">Descifrar</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Mensaje Cifrado</label>
+            </td>
+            <td>
+                <textarea id="resultado"></textarea>
+            </td>
+        </tr>
+    </table>
+</body>
+</html> 
